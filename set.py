@@ -1,0 +1,14 @@
+set={1,2,3}
+print(set)
+set={1.0,"hello",(1,2,3)}
+print(set)
+set={1,2,3,3,4,4,5}
+print(set)
+set.pop()
+print(set)
+a={"green","blue"}
+b={"blue","red"}
+c=a.intersection(b)
+print(c)
+d=a.union(b)
+print(d)
